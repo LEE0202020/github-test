@@ -1,0 +1,82 @@
+# https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,windows 에서 생성됨 
+# https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,windows 에서 수정 
+
+### macOS ### 
+# 일반 
+.DS_Store 
+.AppleDouble 
+.LSOverride 
+
+# 아이콘은 두 개의 \r로 끝나야 합니다 . 
+아이콘 
+
+
+# 썸네일 
+._* 
+
+# 볼륨 루트에 나타날 수 있는 파일 
+.DocumentRevisions-V100 
+.fseventsd 
+.Spotlight-V100 
+.TemporaryItems 
+.Trashes 
+.VolumeIcon.icns 
+.com.apple.timemachine.donotpresent 
+
+# 원격 AFP 공유에 생성될 수 있는 디렉터리 
+.AppleDB 
+.AppleDesktop 
+네트워크 휴지통 폴더 
+임시 항목 
+.apdisk 
+
+### macOS 패치 ### 
+# iCloud에서 생성된 파일 
+*.icloud 
+
+### Visual Studio Code ### 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+!.vscode/*.code-snippets 
+
+# Visual Studio Code 로컬 기록 
+.history/ 
+
+# 빌드된 Visual Studio Code 확장 프로그램 
+*.vsix 
+
+### Visual Studio Code 패치 ### 
+# 모든 로컬 파일 기록 무시 
+.history 
+.ionide 
+
+### Windows ### 
+# Windows 썸네일 캐시 파일 
+Thumbs.db 
+Thumbs.db:encryptable 
+ehthumbs.db 
+ehthumbs_vista.db 
+
+# 덤프 파일 
+*.stackdump 
+
+# 폴더 구성 파일 
+[Dd]esktop.ini 
+
+# 파일 공유에 사용되는 휴지통 
+$RECYCLE.BIN/ 
+
+# Windows 설치 프로그램 파일 
+*.cab 
+*.msi 
+*.msix 
+*.msm 
+*.msp 
+
+# Windows 바로 가기 
+*.lnk 
+
+# 끝 https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,windows
