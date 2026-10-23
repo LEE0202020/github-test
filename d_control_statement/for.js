@@ -19,16 +19,17 @@ for(let i =0; i < arr1.length; i++){
 }
 
 // 빠른 for 문 (파이썬은 빠른 for 문이다 )
-// for ~ in(index) 객체 : index를 접근하는 반복문 
+// for ~ in(index) 객체 : index를 접근하는 반복문 (인댁스 번호 출력)
 for(let i in arr1){
     console.log(i)
 }
-// for ~ of : of는 값을 접근하는 반복문
+// for ~ of : of는 값을 접근하는 반복문(값을 출력)
 for(let i of arr1){
     console.log(i)
 }
 
 // i+=2 : 2씩 증가
+//  i < arr1.length : i가 배열 길이보다 작은 동안 계속 반복
 for(let i =0; i < arr1.length; i+=2){
     console.log(arr1[i])
 }
